@@ -1,0 +1,55 @@
+body {
+    background-image: url("Images/codingeye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+body, html {
+    height: 100%;
+  }
+
+h4 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: black 0px 0px 5px,
+     black 0px 0px 10px,
+     black 0px 0px 15px,
+     rgb(189, 47, 255) 0px 0px 5px, 
+     rgb(189, 47, 255) 0px 0px 10px,   
+     rgb(189, 47, 255) 0px 0px 15px, 
+     rgb(189, 47, 255) 0px 0px 20px, 
+     rgb(189, 47, 255) 0px 0px 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+button {
+    text-align: center;
+}
+
+.btn1,
+.btn2 {
+    background-color: purple;
+    color: white;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    margin: auto;
+    display: block;
+    max-width: 300px;
+;
+}
