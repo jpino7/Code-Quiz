@@ -7,12 +7,22 @@
     <title>Code Quiz</title>
 
     <!-- Style Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
 <body>
 
     <header>
-        <h4>This is a Timed Coding Quiz</h4>
+        <nav class="navbar navbar-light" style="background-color: purple;">
+            <span class="navbar-text" style="color: white;">
+                Timer: 0
+            </span>
+        </nav>
+
+        <h4>Timed JavaScript Fundamental Quiz</h4>
+        <h2>There are 10 questions and you have 23 seconds to complete the quiz. Anytime you select an incorrect answer
+            you will get deducted 3 seconds from your timer!!</h2>
     </header>
 
     <img src="Images/timer23.jpg" alt="Timer Countdown by 23" class="center" style="width: 200px; height: 200px;">
@@ -21,7 +31,6 @@
     <div class="container">
         <button type="button" class="btn1">Start Quiz</button>
         <button type="button" class="btn2">HighScores</button>
-
     </div>
     <script type="text/javascript" src="main.js"></script>
 </body>
