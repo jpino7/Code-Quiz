@@ -12,29 +12,37 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 <body>
-
+    <!-- Navbar for Timer -->
     <header>
         <nav class="navbar navbar-light" style="background-color: purple;">
-            <span class="navbar-text" style="color: white;">
-                Timer: 0
-            </span>
+            <span class="navbar-text" id="timeLeft" style="color: white;">Timer: </span>
+            <span class="navbar-text" id="timer" style="color: white;">0</span>
         </nav>
 
-        <h4>Timed JavaScript Fundamental Quiz</h4>
+        <!-- Title Header -->
+        <h4>JavaScript Quiz</h4>
     </header>
 
+    <!-- Main Content -->
     <img src="Images/timer23.jpg" alt="Timer Countdown by 23" class="center" style="width: 200px; height: 200px;">
 
-    <!-- Main Content -->
-    <div class="container">
-        <p>There are 10 questions and you have 23 seconds to complete the quiz. Anytime you select an incorrect answer
-            you will get deducted 3 seconds from your timer!! When all the questions are answered or the timer hits 0 GAME OVER!
-            Click on High Scores to save your initials and score!
-        </p>
-
-        <button type="button" class="btn1">Start Quiz</button>
-        <button type="button" class="btn2">High Scores</button>
+    <div class="container" id="main-content">
+        
+                <p id="quiz">There are 7 questions and you have 23 seconds to complete the quiz. Anytime you select an
+                    incorrect answer
+                    you will get deducted 3 seconds from your timer!! When all the questions are answered or the timer
+                    hits
+                    0
+                    GAME OVER!
+                </p>
+                <p id="quizscore"></p>
+    
+        <br>
+        <button type="button" class="btn1" id="startQuiz">Start Quiz</button>
+        <!-- <button type="button" class="btn2" id="scores">HighScores</button> -->
     </div>
+
+    <script type="text/javascript" src="questions.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 
