@@ -26,6 +26,7 @@ function displayQuestionAndAnswer(questionNumber) {
         options += '<li class="options" onclick="check_answer(\''+currentChoice+'\')">'+currentChoice+'</li>';
         }
     options += "</ul>";
+    // Concatanate question with question options 
     answer += question + options;
 
     document.getElementById("quiz").innerHTML = answer;

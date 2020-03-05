@@ -42,15 +42,6 @@ h4 {
      rgb(189, 47, 255) 0px 0px 25px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-    width: 50%;
-    border-radius: 50%;
-}
-
 p {
     font-size: 20px;
     font-weight: bold;
@@ -63,6 +54,29 @@ p {
      rgb(189, 47, 255) 0px 0px 15px, 
      rgb(189, 47, 255) 0px 0px 20px, 
      rgb(189, 47, 255) 0px 0px 25px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.options {
+    list-style: none;
+}
+
+#quizscore {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 50%;
+    border-radius: 50%;
 }
 
 button {
