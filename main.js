@@ -23,7 +23,7 @@ function displayQuestionAndAnswer(questionNumber) {
     options = "<ul>";
         for (i = 0; i < numberOfChoice; i++) {
         var currentChoice = questions[questionNumber]['options'][i];
-        options += '<li class="options" onclick="check_answer(\''+currentChoice+'\')">'+currentChoice+'</li>';
+        options += '<li class="options" onclick="checkAnswer(\''+currentChoice+'\')">'+currentChoice+'</li>';
         }
     options += "</ul>";
     // Concatanate question with question options 
@@ -55,7 +55,7 @@ function checkAnswer(answer){
             }
     }
     else {
-        // If answer is INCORRECT we deduct 3 seconds from the timer
+        // If answer is INCORRECT we deduct 10 seconds from the timer
         questionNumber++;
         setTime = setTime -10;
     if (questionnaireLength > questionNumber) {
@@ -87,10 +87,11 @@ function startTimer() {
     document.getElementById("startQuiz").style.display = "none";
     displayQuestionAndAnswer(questionNumber);
 
-    setTime = 23;
+    setTime = 30;
     interval = setInterval(function() {
         setTime = setTime - 1;
-        if(setTime === 0)
+        timer.textContent = setTime;
+        if(setTime <= 0)
         {
             getInitials();       
          }

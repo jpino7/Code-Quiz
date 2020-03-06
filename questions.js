@@ -11,9 +11,9 @@ var questions = [
         answer: "JavaScript"
     },
     {
-        question: "3. What is the correct way to write a JavaScript Array?",
-        options: ["var colors = 'red', 'violet', 'blue'", "var colors = ['red', 'violet', 'blue']", "var colors = ['red[0]', 'violet[1]', 'blue[2]']", "var colors = ('red', 'violet', 'blue')"],
-        answer: "var colors = ['red', 'violet', 'blue']"
+        question: "3. Is JavaScript the same as Java?",
+        options: ["True", "False"],
+        answer: "False"
     },
     {
         question: "4. How do you write an IF statement?",
@@ -22,9 +22,9 @@ var questions = [
 
     },
     {
-        question: "5. How do you write 'Hello World!' in an alert box?",
-        options: ["msg('Hello World!')", "alert('Hello World!')", "msgBox('Hello World!')", "alertBox('Hello World!')"],
-        answer: "alert('Hello World!')"
+        question: "5. Which event occurs when the user clicks on an HTML element?",
+        options: ["onmouseover", "onclick", "onchange", "onmouseclick"],
+        answer: "onclick"
     },
     {
         question: "6. How do you create a function in JavaScript?'?",
@@ -36,4 +36,21 @@ var questions = [
         question: "7. How does a FOR loop start?",
         options: ["for (i = 0; i > 7; i++)", "for (i < 7; i++)", "for i = 1 to 7", "for (i = 0; i <=7)"],
         answer: "for (i = 0; i > 7; i++)"
-    }];
+    },
+    {
+        question: "8. Which operator is used to assign a value to a variable?",
+        options: ["-", "*", "=", "x"],
+        answer: "="
+    },
+    {
+        question: "9. Is JavaScript case-sensitive?",
+        options: ["No", "Yes"],
+        answer: "Yes"
+    },
+    {
+        question: "10. What is an object?",
+        options: ["Boolean", "String", "Number", "Array", "All of the Above"],
+        answer: "All of the Above"
+
+    }
+];
