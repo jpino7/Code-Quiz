@@ -18,5 +18,12 @@ This project was to create an application as a timed code quiz with multiple-cho
  * Bootstrap v4.4 https://getbootstrap.com/
  * The Ultimate Favicon Generator https://favicon.io/
 
+ ## Author
+Designed by: Joanna R. Pino
+
 ## Site
 https://jpino7.github.io/Code-Quiz/
+
+---
+
+© 2020 Joanna R. Pino • Web Designer in the Making
