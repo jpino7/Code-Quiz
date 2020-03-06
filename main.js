@@ -87,7 +87,7 @@ function startTimer() {
     document.getElementById("startQuiz").style.display = "none";
     displayQuestionAndAnswer(questionNumber);
 
-    setTime = 30;
+    setTime = 60;
     interval = setInterval(function() {
         setTime = setTime - 1;
         timer.textContent = setTime;
