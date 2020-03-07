@@ -12,7 +12,7 @@ This project was to create an application as a timed code quiz with multiple-cho
  * questions.js & main.js - coded to make them function with the HTML and CSS in-order for the application to generate as a timed code quiz.
 
  ### Project Acceptance Criteria
-    User must click Start Quiz button to kick off timer and get presented with questions and choices. User must answer question then get presented with the following question. When user answers incorrectly seconds will get deducted from timer. When all questions are answered or timer runs out the quiz ends. When quiz is over user can save initials, the score will record when initials are submitted.
+    User must click Start Quiz button to kick off timer and get presented with questions and choices. User must answer question then get presented with the following question. When user answers incorrectly 10 seconds will get deducted from timer. When all questions are answered or timer runs out the quiz ends. When quiz is over user can save initials, the score will record when initials are submitted.
 
 ## Acknowledgement
  * Bootstrap v4.4 https://getbootstrap.com/
